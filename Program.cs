@@ -28,9 +28,10 @@ XOGame.OnGameOver += (winner) =>
     }
 };
 
-XOGame.TryTurn(0, 2);
+XOGame.TryTurn(0, 0);
 XOGame.TryTurn(1, 1);
-XOGame.TryTurn(1, 2);
+XOGame.TryTurn(1, 1);
 XOGame.TryTurn(2, 1);
-XOGame.TryTurn(2, 2);
 XOGame.TryTurn(2, 0);
+XOGame.TryTurn(1, 2);
+XOGame.TryTurn(2,2);
